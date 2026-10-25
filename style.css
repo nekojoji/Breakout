@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+#game-container {
+    border: 5px solid #333;
+    background-color: #eee;
+}
+
+#gameCanvas {
+    display: block;
+    background-color: #000;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
